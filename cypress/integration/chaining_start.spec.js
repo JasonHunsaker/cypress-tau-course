@@ -10,7 +10,7 @@ it('Chaining commands', () => {
 
   cy
     .get('[data-cy="task"]')
-    .eq(2)
+    .eq(0)
     .should('have.text', 'milk')
 
 });
